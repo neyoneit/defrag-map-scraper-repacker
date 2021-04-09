@@ -1,4 +1,4 @@
-# Map downloader for ws.q3df.org
+# Map downloader Quake III Arena DeFRaG
 
 The script `ws_scrape_once.py` can be run in various environment. You can also use a Docker image, but the image probably brings more benefits for development than for production.
 
