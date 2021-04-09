@@ -1,0 +1,10 @@
+version: '3'
+services:
+  downloader:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    container_name: maps-downloader
+    volumes:
+      - "./data:/wd/data"
