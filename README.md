@@ -23,11 +23,11 @@ The script `ws_scrape_once.py` can be run in various environment. You can also u
 2. Install Python 3 (tested with 3.8)
 3. Install all the requirements:
 
-        pip insttall -r src/requirements.txt
+        pip install -r src/requirements.txt
 
     In some cases, pip uses Python 2. In such case, you might succeed by using pip3 instead:
 
-        pip3 insttall -r src/requirements.txt
+        pip3 install -r src/requirements.txt
 
 ### Running
 
