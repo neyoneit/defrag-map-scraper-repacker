@@ -1,0 +1,2744 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"/>
+ <link rel="search" type="application/opensearchdescription+xml" title="Worldspawn maps" href="/map_search.xml"/>
+ <link rel="search" type="application/opensearchdescription+xml" title="Worldspawn models" href="/model_search.xml"/>
+ <meta charset="UTF-8">
+ <meta name="description" content="Quake 3 Arena Archive"/>
+ <meta name="keywords" content="Q3A, Quake III Arena, map, maps, level, archive, custom maps, skin, skins, DeFRaG, game"/>
+ <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+ <title>Worldspawn Archive</title>
+<!--[if IE 6]><style type="text/css">.lcol {background-color: #FFFFFF;}</style><![endif]-->
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/css/main_ie_hacks.css"/><![endif]-->
+  
+</head>
+<body>
+
+<div id="main_container">
+
+<nav>
+<div id="main_topNavigationContainer">
+ <ul>
+  <li><a href="/maps/" id="main_tab_link_active">Maps</a></li>
+  <li><a href="/models/">Models</a></li>
+  <li><a href="/level_design/">Level design</a></li>
+  <li><a href="/search/" rel="search">Search</a></li>
+  <li><a href="/upload/">Upload map</a></li>
+  <li><a href="/links/">Links</a></li>
+ </ul>
+ <div id="main_topNavigationSearchContainer">
+   <form action="/maps/" method="get" id="main_topNavigationSearch">
+    <fieldset>
+     <label for="lmapname" accesskey="m">Map</label>
+     <input name="map" id="lmapname" type="text" maxlength="64" value="" autofocus="autofocus" placeholder="Search"/>
+     <input type="hidden" name="show" value="50"/>
+     <input type="image" src="/images/search-icon.png" alt="Search" title="Search"/>
+    </fieldset>
+   </form>
+ </div>
+ <span class="clear_float"></span>
+</div>
+</nav>
+
+<div id="main_content_container">
+<a href="/test.php/1"></a><span id="resulttext">
+9151-9200 of 16910 results</span>
+
+<nav>
+<span id="viewbar">
+ <a 
+   id="maps_active_view" 
+  href="/maps/?map=&amp;page=183&amp;show=50&amp;view=0">
+  <img src="/images/maps/list.gif" width="16" height="16" alt="List " title="List"/></a>
+ <a 
+  href="/maps/?map=&amp;page=183&amp;show=50&amp;view=1">
+  <img src="/images/maps/thumbs.gif" width="16" height="16" alt="Levelshot thumbnails " title="Levelshot thumbnails"/></a>
+ <a 
+  href="/maps/?map=&amp;page=183&amp;show=50&amp;view=2">
+  <img src="/images/maps/topview.gif" width="16" height="16" alt="Topview thumbnails " title="Topview thumbnails"/></a>
+</span>
+</nav>
+
+<nav>
+<ul class="maps_pagebar">
+ <li>
+  <a rel="start" 
+   href="/maps/?map=&amp;page=0&amp;show=50" title="First page">&lt;&lt;</a>
+ </li>
+ <li>
+  <a 
+   rel="prev" 
+   href="/maps/?map=&amp;page=182&amp;show=50">previous page</a>
+ </li>
+
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=178&amp;show=50">179</a>
+ </li>
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=179&amp;show=50">180</a>
+ </li>
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=180&amp;show=50">181</a>
+ </li>
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=181&amp;show=50">182</a>
+ </li>
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=182&amp;show=50">183</a>
+ </li>
+ <li>
+  <a 
+   class="maps_pagebar_item_current" 
+   href="/maps/?map=&amp;page=183&amp;show=50">184</a>
+ </li>
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=184&amp;show=50">185</a>
+ </li>
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=185&amp;show=50">186</a>
+ </li>
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=186&amp;show=50">187</a>
+ </li>
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=187&amp;show=50">188</a>
+ </li>
+
+ <li>
+  <a 
+   rel="next" 
+   href="/maps/?map=&amp;page=184&amp;show=50">next page</a>
+ </li>
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=338&amp;show=50" title="Last page">&gt;&gt;</a>
+ </li>
+</ul>
+</nav>
+
+<div class="clear_float"></div>
+
+
+
+
+<table id="maps_table">
+ <tr class="maps_table_row_alt">
+ <th><a href="/maps/?map=&amp;page=183&amp;show=50&amp;order=0&amp;desc=1">release</a></th>
+ <th><a href="/maps/?map=&amp;page=183&amp;show=50&amp;order=7&amp;desc=1">map details</a></th>
+ <th><a href="/maps/?map=&amp;page=183&amp;show=50&amp;order=2&amp;desc=1">pk3 file</a></th>
+ <th><a href="/maps/?map=&amp;page=183&amp;show=50&amp;order=5&amp;desc=1">size</a></th>
+ <th>mod</th>
+ <th>game type</th>
+ <th>weapons</th>
+ <th>items</th>
+ <th>functions</th>
+ <th><a href="/maps/?map=&amp;page=183&amp;show=50&amp;order=6&amp;desc=1">hits</a></th>
+ <th></th>
+ <th></th>
+</tr>
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2008-01-07T21:45:01+00:00">2008-01-07</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/%23rust7%23o3j/">
+    For oZonEjuNkie   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/%23rust7%23o3j.pk3">#rust7#o3j</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   1.37 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/haste.png" alt="haste" title="Haste" height="16" width="16" srcset="/images/icons/svg/haste.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   589  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2008-01-07T21:44:30+00:00">2008-01-07</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/nightgallery/">
+    nightgallery   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/nightgallery.pk3">nightgallery</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   2.45 MB  </td>
+
+  <td>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-gametype" title="Single Player">
+    sp   </a>
+   <a rel="glossary" href="/legend/#lg-gametype" title="Free For All">
+    ffa   </a>
+   <a rel="glossary" href="/legend/#lg-gametype" title="Tournament">
+    trn   </a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_shotgun.png" alt="sg" title="Shotgun" height="16" width="16" srcset="/images/icons/svg/iconw_shotgun.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_grenade.png" alt="gl" title="Grenade Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_grenade.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_plasma.png" alt="pg" title="Plasmagun" height="16" width="16" srcset="/images/icons/svg/iconw_plasma.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_bfg.png" alt="bfg" title="Big Fucking Gun" height="16" width="16" srcset="/images/icons/svg/iconw_bfg.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_red.png" alt="ra" title="Body Armor (Red Armor)" height="16" width="16" srcset="/images/icons/svg/iconr_red.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_yellow.png" alt="ya" title="Combat Armor (Yellow Armor)" height="16" width="16" srcset="/images/icons/svg/iconr_yellow.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_shard.png" alt="sa" title="Shard Armor" height="16" width="16" srcset="/images/icons/svg/iconr_shard.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_yellow.png" alt="largeh" title="Large health" height="16" width="16" srcset="/images/icons/svg/iconh_yellow.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_mega.png" alt="mega" title="Mega health" height="16" width="16" srcset="/images/icons/svg/iconh_mega.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/door.png" alt="door" title="Door/Gate" height="16" width="16" srcset="/images/icons/svg/door.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/push.png" alt="push" title="Jumppad/Launchramp" height="16" width="16" srcset="/images/icons/svg/push.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   153  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2008-01-07T21:35:06+00:00">2008-01-07</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/boris_fullcycle/">
+    Many days and nights   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/boris_fullcycle.pk3">boris_fullcycle</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   1.55 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/envirosuit.png" alt="enviro" title="Battle Suit" height="16" width="16" srcset="/images/icons/svg/envirosuit.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/tele.png" alt="tele" title="Teleporter/Portal" height="16" width="16" srcset="/images/icons/svg/tele.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/slick.png" alt="ice" title="Slick" height="16" width="16" srcset="/images/icons/svg/slick.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   657  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2008-01-07T19:12:40+00:00">2008-01-07</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/ut4_orb2/">
+    The Orb Returns   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/ut4_orb2.pk3">ut4_orb2</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   1.71 MB  </td>
+
+  <td>
+   <a href="http://www.urbanterror.net"><img src="/images/icons/16x16/urbanterror.png" alt="ut" title="Urban Terror" height="16" width="16"/></a>
+  </td>
+  <td class="maps_gametypes">
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/door.png" alt="door" title="Door/Gate" height="16" width="16" srcset="/images/icons/svg/door.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/button.png" alt="button" title="Button" height="16" width="16" srcset="/images/icons/svg/button.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/tele.png" alt="tele" title="Teleporter/Portal" height="16" width="16" srcset="/images/icons/svg/tele.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/push.png" alt="push" title="Jumppad/Launchramp" height="16" width="16" srcset="/images/icons/svg/push.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/slick.png" alt="ice" title="Slick" height="16" width="16" srcset="/images/icons/svg/slick.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/sound.png" alt="sound" title="Ambient sounds" height="16" width="16" srcset="/images/icons/svg/Speaker_Icon.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   158  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2008-01-07T17:10:49+00:00">2008-01-07</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/pornstar-run2/">
+    Made by Pornstar   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/pornstar-run2.pk3">pornstar-run2</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   1.11 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_grenade.png" alt="gl" title="Grenade Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_grenade.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_plasma.png" alt="pg" title="Plasmagun" height="16" width="16" srcset="/images/icons/svg/iconw_plasma.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/envirosuit.png" alt="enviro" title="Battle Suit" height="16" width="16" srcset="/images/icons/svg/envirosuit.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/push.png" alt="push" title="Jumppad/Launchramp" height="16" width="16" srcset="/images/icons/svg/push.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/lava.png" alt="lava" title="Lava" height="16" width="16" srcset="/images/icons/svg/lava.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   1,459  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2008-01-07T16:20:40+00:00">2008-01-07</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/q3shw21/">
+    Destroyer   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/Q3shw21.pk3">Q3shw21</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   9.10 MB  </td>
+
+  <td>
+   <a href="https://playmorepromode.com/"><img src="/images/icons/16x16/cpma.png" alt="cpma" title="Challenge Pro Mode Arena" height="16" width="16" srcset="/images/icons/svg/cpma.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-gametype" title="Free For All">
+    ffa   </a>
+   <a rel="glossary" href="/legend/#lg-gametype" title="Tournament">
+    trn   </a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_shotgun.png" alt="sg" title="Shotgun" height="16" width="16" srcset="/images/icons/svg/iconw_shotgun.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_grenade.png" alt="gl" title="Grenade Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_grenade.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_lightning.png" alt="lg" title="Lightning Gun" height="16" width="16" srcset="/images/icons/svg/iconw_lightning.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_railgun.png" alt="rg" title="Railgun" height="16" width="16" srcset="/images/icons/svg/iconw_railgun.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_red.png" alt="ra" title="Body Armor (Red Armor)" height="16" width="16" srcset="/images/icons/svg/iconr_red.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_yellow.png" alt="ya" title="Combat Armor (Yellow Armor)" height="16" width="16" srcset="/images/icons/svg/iconr_yellow.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_shard.png" alt="sa" title="Shard Armor" height="16" width="16" srcset="/images/icons/svg/iconr_shard.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_red.png" alt="health" title="Health" height="16" width="16" srcset="/images/icons/svg/iconh_red.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_yellow.png" alt="largeh" title="Large health" height="16" width="16" srcset="/images/icons/svg/iconh_yellow.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_mega.png" alt="mega" title="Mega health" height="16" width="16" srcset="/images/icons/svg/iconh_mega.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_green.png" alt="smallh" title="Small health" height="16" width="16" srcset="/images/icons/svg/iconh_green.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/tele.png" alt="tele" title="Teleporter/Portal" height="16" width="16" srcset="/images/icons/svg/tele.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/push.png" alt="push" title="Jumppad/Launchramp" height="16" width="16" srcset="/images/icons/svg/push.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/moving.png" alt="moving" title="Moving object/platform" height="16" width="16" srcset="/images/icons/svg/moving.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/water.png" alt="w" title="Water" height="16" width="16" srcset="/images/icons/svg/water.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/fog.png" alt="fog" title="Fog" height="16" width="16" srcset="/images/icons/svg/fog.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/lava.png" alt="lava" title="Lava" height="16" width="16" srcset="/images/icons/svg/lava.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   265  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2008-01-06T21:41:26+00:00">2008-01-06</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/boris_daytime/">
+    Walk through the day   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/boris_daytime.pk3">boris_daytime</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   1.27 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/envirosuit.png" alt="enviro" title="Battle Suit" height="16" width="16" srcset="/images/icons/svg/envirosuit.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   1,389  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2008-01-06T16:41:52+00:00">2008-01-06</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/THd-house1/">
+    THd-house1   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/THd-house1.pk3">THd-house1</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   15.80 MB  </td>
+
+  <td>
+  </td>
+  <td class="maps_gametypes">
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/door.png" alt="door" title="Door/Gate" height="16" width="16" srcset="/images/icons/svg/door.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/button.png" alt="button" title="Button" height="16" width="16" srcset="/images/icons/svg/button.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/tele.png" alt="tele" title="Teleporter/Portal" height="16" width="16" srcset="/images/icons/svg/tele.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/push.png" alt="push" title="Jumppad/Launchramp" height="16" width="16" srcset="/images/icons/svg/push.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/moving.png" alt="moving" title="Moving object/platform" height="16" width="16" srcset="/images/icons/svg/moving.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/water.png" alt="w" title="Water" height="16" width="16" srcset="/images/icons/svg/water.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/fog.png" alt="fog" title="Fog" height="16" width="16" srcset="/images/icons/svg/fog.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/slime.png" alt="slime" title="Slime" height="16" width="16" srcset="/images/icons/svg/slime.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/lava.png" alt="lava" title="Lava" height="16" width="16" srcset="/images/icons/svg/lava.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/sound.png" alt="sound" title="Ambient sounds" height="16" width="16" srcset="/images/icons/svg/Speaker_Icon.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   411  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2008-01-06T02:33:42+00:00">2008-01-06</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/w1z-tubgirl/">
+    w1z-tubgirl   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/w1z-tubgirl.pk3">w1z-tubgirl</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   4.76 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/door.png" alt="door" title="Door/Gate" height="16" width="16" srcset="/images/icons/svg/door.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/tele.png" alt="tele" title="Teleporter/Portal" height="16" width="16" srcset="/images/icons/svg/tele.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/slick.png" alt="ice" title="Slick" height="16" width="16" srcset="/images/icons/svg/slick.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/water.png" alt="w" title="Water" height="16" width="16" srcset="/images/icons/svg/water.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/sound.png" alt="sound" title="Ambient sounds" height="16" width="16" srcset="/images/icons/svg/Speaker_Icon.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   605  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2008-01-05T18:33:17+00:00">2008-01-05</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/lamomat2/">
+    lamomat2   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/lamomat2.pk3">lamomat2</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   1.25 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   789  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2008-01-05T17:19:43+00:00">2008-01-05</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/depression/">
+    depression   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/depression.pk3">depression</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   0.02 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/envirosuit.png" alt="enviro" title="Battle Suit" height="16" width="16" srcset="/images/icons/svg/envirosuit.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/push.png" alt="push" title="Jumppad/Launchramp" height="16" width="16" srcset="/images/icons/svg/push.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   486  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2008-01-02T11:07:17+00:00">2008-01-02</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/2fastcomp005/">
+    2fast comp #005   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/2fastcomp005.pk3">2fastcomp005</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   1.07 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_grenade.png" alt="gl" title="Grenade Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_grenade.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_plasma.png" alt="pg" title="Plasmagun" height="16" width="16" srcset="/images/icons/svg/iconw_plasma.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/envirosuit.png" alt="enviro" title="Battle Suit" height="16" width="16" srcset="/images/icons/svg/envirosuit.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/tele.png" alt="tele" title="Teleporter/Portal" height="16" width="16" srcset="/images/icons/svg/tele.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/push.png" alt="push" title="Jumppad/Launchramp" height="16" width="16" srcset="/images/icons/svg/push.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/water.png" alt="w" title="Water" height="16" width="16" srcset="/images/icons/svg/water.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   1,105  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2008-01-01T21:14:45+00:00">2008-01-01</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/mjc02-3/">
+    Mega Jumping Cup 02 ...   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/mjc02-3.pk3">mjc02-3</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   1.03 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   1,240  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2007-12-31T14:42:18+00:00">2007-12-31</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/lamomat/">
+    lamomat   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/lamomat.pk3">lamomat</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   0.15 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   701  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2007-12-31T10:25:46+00:00">2007-12-31</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/czsk-x-mas07-3/">
+    CZSK-X-MAS07-3   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/czsk-x-mas07-3.pk3">czsk-x-mas07-3</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   2.80 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_grenade.png" alt="gl" title="Grenade Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_grenade.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_plasma.png" alt="pg" title="Plasmagun" height="16" width="16" srcset="/images/icons/svg/iconw_plasma.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_red.png" alt="ra" title="Body Armor (Red Armor)" height="16" width="16" srcset="/images/icons/svg/iconr_red.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_mega.png" alt="mega" title="Mega health" height="16" width="16" srcset="/images/icons/svg/iconh_mega.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/tele.png" alt="tele" title="Teleporter/Portal" height="16" width="16" srcset="/images/icons/svg/tele.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   973  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2007-12-31T10:21:36+00:00">2007-12-31</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/czsk-x-mas07-2/">
+    czsk-x-mas07-2   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/czsk-x-mas07-2.pk3">czsk-x-mas07-2</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   4.54 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_bfg.png" alt="bfg" title="Big Fucking Gun" height="16" width="16" srcset="/images/icons/svg/iconw_bfg.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/envirosuit.png" alt="enviro" title="Battle Suit" height="16" width="16" srcset="/images/icons/svg/envirosuit.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/tele.png" alt="tele" title="Teleporter/Portal" height="16" width="16" srcset="/images/icons/svg/tele.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/moving.png" alt="moving" title="Moving object/platform" height="16" width="16" srcset="/images/icons/svg/moving.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/slick.png" alt="ice" title="Slick" height="16" width="16" srcset="/images/icons/svg/slick.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/fog.png" alt="fog" title="Fog" height="16" width="16" srcset="/images/icons/svg/fog.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   950  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2007-12-31T10:12:57+00:00">2007-12-31</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/czsk-x-mas07-1/">
+    Abandoned   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/czsk-x-mas07-1.pk3">czsk-x-mas07-1</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   12.85 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/tele.png" alt="tele" title="Teleporter/Portal" height="16" width="16" srcset="/images/icons/svg/tele.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/lava.png" alt="lava" title="Lava" height="16" width="16" srcset="/images/icons/svg/lava.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   1,886  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2007-12-30T20:45:20+00:00">2007-12-30</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/dmr3dm3/">
+    Rail Circus   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/dmr3dm3.pk3">dmr3dm3</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   2.48 MB  </td>
+
+  <td>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-gametype" title="Free For All">
+    ffa   </a>
+   <a rel="glossary" href="/legend/#lg-gametype" title="Tournament">
+    trn   </a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_railgun.png" alt="rg" title="Railgun" height="16" width="16" srcset="/images/icons/svg/iconw_railgun.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_red.png" alt="ra" title="Body Armor (Red Armor)" height="16" width="16" srcset="/images/icons/svg/iconr_red.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_shard.png" alt="sa" title="Shard Armor" height="16" width="16" srcset="/images/icons/svg/iconr_shard.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_red.png" alt="health" title="Health" height="16" width="16" srcset="/images/icons/svg/iconh_red.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_green.png" alt="smallh" title="Small health" height="16" width="16" srcset="/images/icons/svg/iconh_green.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/push.png" alt="push" title="Jumppad/Launchramp" height="16" width="16" srcset="/images/icons/svg/push.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/fog.png" alt="fog" title="Fog" height="16" width="16" srcset="/images/icons/svg/fog.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/lava.png" alt="lava" title="Lava" height="16" width="16" srcset="/images/icons/svg/lava.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/sound.png" alt="sound" title="Ambient sounds" height="16" width="16" srcset="/images/icons/svg/Speaker_Icon.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   166  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2007-12-30T20:42:07+00:00">2007-12-30</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/cmc06_webas/">
+    last walls   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/cmc06_webas.pk3">cmc06_webas</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   3.64 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_plasma.png" alt="pg" title="Plasmagun" height="16" width="16" srcset="/images/icons/svg/iconw_plasma.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_red.png" alt="ra" title="Body Armor (Red Armor)" height="16" width="16" srcset="/images/icons/svg/iconr_red.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_yellow.png" alt="ya" title="Combat Armor (Yellow Armor)" height="16" width="16" srcset="/images/icons/svg/iconr_yellow.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_shard.png" alt="sa" title="Shard Armor" height="16" width="16" srcset="/images/icons/svg/iconr_shard.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/envirosuit.png" alt="enviro" title="Battle Suit" height="16" width="16" srcset="/images/icons/svg/envirosuit.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/haste.png" alt="haste" title="Haste" height="16" width="16" srcset="/images/icons/svg/haste.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_yellow.png" alt="largeh" title="Large health" height="16" width="16" srcset="/images/icons/svg/iconh_yellow.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_mega.png" alt="mega" title="Mega health" height="16" width="16" srcset="/images/icons/svg/iconh_mega.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/tele.png" alt="tele" title="Teleporter/Portal" height="16" width="16" srcset="/images/icons/svg/tele.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/push.png" alt="push" title="Jumppad/Launchramp" height="16" width="16" srcset="/images/icons/svg/push.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/moving.png" alt="moving" title="Moving object/platform" height="16" width="16" srcset="/images/icons/svg/moving.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   1,195  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2007-12-30T17:40:48+00:00">2007-12-30</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/pornstar-quickie3/">
+    Made by Pornstar   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/pornstar-quickie3.pk3">pornstar-quickie3</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   1.54 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/tele.png" alt="tele" title="Teleporter/Portal" height="16" width="16" srcset="/images/icons/svg/tele.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/water.png" alt="w" title="Water" height="16" width="16" srcset="/images/icons/svg/water.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   3,093  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2007-12-30T15:16:00+00:00">2007-12-30</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/icecpmrun01/">
+    Cpm Run by x010d   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/icecpmrun01.pk3">icecpmrun01</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   0.46 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   1,188  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2007-12-29T22:25:29+00:00">2007-12-29</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/DACTF1/">
+    DACTF1   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/DACTF1.pk3">DACTF1</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   0.94 MB  </td>
+
+  <td>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-gametype" title="Capture the flag">
+    <img src="/images/icons/16x16/iconf_red2.png" alt="ctf" title="Capture the flag" height="16" width="16"/>
+   </a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_railgun.png" alt="rg" title="Railgun" height="16" width="16" srcset="/images/icons/svg/iconw_railgun.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_red.png" alt="ra" title="Body Armor (Red Armor)" height="16" width="16" srcset="/images/icons/svg/iconr_red.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_yellow.png" alt="ya" title="Combat Armor (Yellow Armor)" height="16" width="16" srcset="/images/icons/svg/iconr_yellow.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_shard.png" alt="sa" title="Shard Armor" height="16" width="16" srcset="/images/icons/svg/iconr_shard.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_yellow.png" alt="largeh" title="Large health" height="16" width="16" srcset="/images/icons/svg/iconh_yellow.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_mega.png" alt="mega" title="Mega health" height="16" width="16" srcset="/images/icons/svg/iconh_mega.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/push.png" alt="push" title="Jumppad/Launchramp" height="16" width="16" srcset="/images/icons/svg/push.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   455  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2007-12-29T15:25:29+00:00">2007-12-29</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/w1z-3/">
+    w1z-3   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/w1z-3.pk3">w1z-3</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   3.16 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_grenade.png" alt="gl" title="Grenade Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_grenade.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_plasma.png" alt="pg" title="Plasmagun" height="16" width="16" srcset="/images/icons/svg/iconw_plasma.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_yellow.png" alt="ya" title="Combat Armor (Yellow Armor)" height="16" width="16" srcset="/images/icons/svg/iconr_yellow.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_red.png" alt="health" title="Health" height="16" width="16" srcset="/images/icons/svg/iconh_red.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_yellow.png" alt="largeh" title="Large health" height="16" width="16" srcset="/images/icons/svg/iconh_yellow.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_mega.png" alt="mega" title="Mega health" height="16" width="16" srcset="/images/icons/svg/iconh_mega.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/door.png" alt="door" title="Door/Gate" height="16" width="16" srcset="/images/icons/svg/door.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/tele.png" alt="tele" title="Teleporter/Portal" height="16" width="16" srcset="/images/icons/svg/tele.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/push.png" alt="push" title="Jumppad/Launchramp" height="16" width="16" srcset="/images/icons/svg/push.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/moving.png" alt="moving" title="Moving object/platform" height="16" width="16" srcset="/images/icons/svg/moving.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/water.png" alt="w" title="Water" height="16" width="16" srcset="/images/icons/svg/water.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/lava.png" alt="lava" title="Lava" height="16" width="16" srcset="/images/icons/svg/lava.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   452  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2007-12-28T13:28:40+00:00">2007-12-28</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/%23rust7%23daybreak/">
+    For KA1N   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/%23rust7%23daybreak.pk3">#rust7#daybreak</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   1.32 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   671  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2007-12-27T11:44:14+00:00">2007-12-27</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/wolfenwinter/">
+    wolfenwinter   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/wolfenwinter.pk3">wolfenwinter</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   7.36 MB  </td>
+
+  <td>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-gametype" title="Free For All">
+    ffa   </a>
+   <a rel="glossary" href="/legend/#lg-gametype" title="Tournament">
+    trn   </a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_shotgun.png" alt="sg" title="Shotgun" height="16" width="16" srcset="/images/icons/svg/iconw_shotgun.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_grenade.png" alt="gl" title="Grenade Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_grenade.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_lightning.png" alt="lg" title="Lightning Gun" height="16" width="16" srcset="/images/icons/svg/iconw_lightning.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_railgun.png" alt="rg" title="Railgun" height="16" width="16" srcset="/images/icons/svg/iconw_railgun.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_plasma.png" alt="pg" title="Plasmagun" height="16" width="16" srcset="/images/icons/svg/iconw_plasma.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_bfg.png" alt="bfg" title="Big Fucking Gun" height="16" width="16" srcset="/images/icons/svg/iconw_bfg.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_shard.png" alt="sa" title="Shard Armor" height="16" width="16" srcset="/images/icons/svg/iconr_shard.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/envirosuit.png" alt="enviro" title="Battle Suit" height="16" width="16" srcset="/images/icons/svg/envirosuit.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_green.png" alt="smallh" title="Small health" height="16" width="16" srcset="/images/icons/svg/iconh_green.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/invis.png" alt="invis" title="Invisibility" height="16" width="16" srcset="/images/icons/svg/invis.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/quad.png" alt="quad" title="Quad-Damage" height="16" width="16" srcset="/images/icons/svg/quad.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/medkit.png" alt="medkit" title="Medikit" height="16" width="16" srcset="/images/icons/svg/medkit.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/teleporter.png" alt="ptele" title="Personal Teleporter" height="16" width="16" srcset="/images/icons/svg/teleporter.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/moving.png" alt="moving" title="Moving object/platform" height="16" width="16" srcset="/images/icons/svg/moving.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/slick.png" alt="ice" title="Slick" height="16" width="16" srcset="/images/icons/svg/slick.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/water.png" alt="w" title="Water" height="16" width="16" srcset="/images/icons/svg/water.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/sound.png" alt="sound" title="Ambient sounds" height="16" width="16" srcset="/images/icons/svg/Speaker_Icon.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   373  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2007-12-27T00:42:20+00:00">2007-12-27</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/lucidity/">
+    lucidity   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/lucidity.pk3">lucidity</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   16.96 MB  </td>
+
+  <td>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-gametype" title="Single Player">
+    sp   </a>
+   <a rel="glossary" href="/legend/#lg-gametype" title="Free For All">
+    ffa   </a>
+   <a rel="glossary" href="/legend/#lg-gametype" title="Tournament">
+    trn   </a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_lightning.png" alt="lg" title="Lightning Gun" height="16" width="16" srcset="/images/icons/svg/iconw_lightning.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_railgun.png" alt="rg" title="Railgun" height="16" width="16" srcset="/images/icons/svg/iconw_railgun.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_bfg.png" alt="bfg" title="Big Fucking Gun" height="16" width="16" srcset="/images/icons/svg/iconw_bfg.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_red.png" alt="ra" title="Body Armor (Red Armor)" height="16" width="16" srcset="/images/icons/svg/iconr_red.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_yellow.png" alt="ya" title="Combat Armor (Yellow Armor)" height="16" width="16" srcset="/images/icons/svg/iconr_yellow.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_shard.png" alt="sa" title="Shard Armor" height="16" width="16" srcset="/images/icons/svg/iconr_shard.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/envirosuit.png" alt="enviro" title="Battle Suit" height="16" width="16" srcset="/images/icons/svg/envirosuit.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/flight.png" alt="flight" title="Flight" height="16" width="16" srcset="/images/icons/svg/flight.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_red.png" alt="health" title="Health" height="16" width="16" srcset="/images/icons/svg/iconh_red.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_mega.png" alt="mega" title="Mega health" height="16" width="16" srcset="/images/icons/svg/iconh_mega.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/quad.png" alt="quad" title="Quad-Damage" height="16" width="16" srcset="/images/icons/svg/quad.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/regen.png" alt="regen" title="Regeneration" height="16" width="16" srcset="/images/icons/svg/regen.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/door.png" alt="door" title="Door/Gate" height="16" width="16" srcset="/images/icons/svg/door.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/button.png" alt="button" title="Button" height="16" width="16" srcset="/images/icons/svg/button.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/moving.png" alt="moving" title="Moving object/platform" height="16" width="16" srcset="/images/icons/svg/moving.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   139  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2007-12-26T23:20:33+00:00">2007-12-26</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/osiedle/">
+    Osiedle Nad Zalewem   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/osiedle.pk3">osiedle</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   5.68 MB  </td>
+
+  <td>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-gametype" title="Single Player">
+    sp   </a>
+   <a rel="glossary" href="/legend/#lg-gametype" title="Free For All">
+    ffa   </a>
+   <a rel="glossary" href="/legend/#lg-gametype" title="Team Deathmatch">
+    tdm   </a>
+   <a rel="glossary" href="/legend/#lg-gametype" title="Tournament">
+    trn   </a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_machinegun.png" alt="mg" title="Machinegun" height="16" width="16" srcset="/images/icons/svg/iconw_machinegun.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_shotgun.png" alt="sg" title="Shotgun" height="16" width="16" srcset="/images/icons/svg/iconw_shotgun.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_grenade.png" alt="gl" title="Grenade Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_grenade.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_lightning.png" alt="lg" title="Lightning Gun" height="16" width="16" srcset="/images/icons/svg/iconw_lightning.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_railgun.png" alt="rg" title="Railgun" height="16" width="16" srcset="/images/icons/svg/iconw_railgun.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_plasma.png" alt="pg" title="Plasmagun" height="16" width="16" srcset="/images/icons/svg/iconw_plasma.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_bfg.png" alt="bfg" title="Big Fucking Gun" height="16" width="16" srcset="/images/icons/svg/iconw_bfg.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_red.png" alt="ra" title="Body Armor (Red Armor)" height="16" width="16" srcset="/images/icons/svg/iconr_red.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_yellow.png" alt="ya" title="Combat Armor (Yellow Armor)" height="16" width="16" srcset="/images/icons/svg/iconr_yellow.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_shard.png" alt="sa" title="Shard Armor" height="16" width="16" srcset="/images/icons/svg/iconr_shard.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/envirosuit.png" alt="enviro" title="Battle Suit" height="16" width="16" srcset="/images/icons/svg/envirosuit.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/flight.png" alt="flight" title="Flight" height="16" width="16" srcset="/images/icons/svg/flight.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/haste.png" alt="haste" title="Haste" height="16" width="16" srcset="/images/icons/svg/haste.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_red.png" alt="health" title="Health" height="16" width="16" srcset="/images/icons/svg/iconh_red.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_yellow.png" alt="largeh" title="Large health" height="16" width="16" srcset="/images/icons/svg/iconh_yellow.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_mega.png" alt="mega" title="Mega health" height="16" width="16" srcset="/images/icons/svg/iconh_mega.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_green.png" alt="smallh" title="Small health" height="16" width="16" srcset="/images/icons/svg/iconh_green.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/invis.png" alt="invis" title="Invisibility" height="16" width="16" srcset="/images/icons/svg/invis.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/quad.png" alt="quad" title="Quad-Damage" height="16" width="16" srcset="/images/icons/svg/quad.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/regen.png" alt="regen" title="Regeneration" height="16" width="16" srcset="/images/icons/svg/regen.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/medkit.png" alt="medkit" title="Medikit" height="16" width="16" srcset="/images/icons/svg/medkit.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/teleporter.png" alt="ptele" title="Personal Teleporter" height="16" width="16" srcset="/images/icons/svg/teleporter.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/door.png" alt="door" title="Door/Gate" height="16" width="16" srcset="/images/icons/svg/door.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/tele.png" alt="tele" title="Teleporter/Portal" height="16" width="16" srcset="/images/icons/svg/tele.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/push.png" alt="push" title="Jumppad/Launchramp" height="16" width="16" srcset="/images/icons/svg/push.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/moving.png" alt="moving" title="Moving object/platform" height="16" width="16" srcset="/images/icons/svg/moving.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/fog.png" alt="fog" title="Fog" height="16" width="16" srcset="/images/icons/svg/fog.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/lava.png" alt="lava" title="Lava" height="16" width="16" srcset="/images/icons/svg/lava.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/sound.png" alt="sound" title="Ambient sounds" height="16" width="16" srcset="/images/icons/svg/Speaker_Icon.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   616  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2007-12-26T21:00:54+00:00">2007-12-26</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/%23rust7%23determinal/">
+    For *MaZe*   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/%23rust7%23determinal.pk3">#rust7#determinal</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   1.21 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/tele.png" alt="tele" title="Teleporter/Portal" height="16" width="16" srcset="/images/icons/svg/tele.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   516  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2007-12-25T23:48:08+00:00">2007-12-25</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/bfgarena/">
+    bfgarena   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/bfgarena.pk3">bfgarena</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   0.55 MB  </td>
+
+  <td>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-gametype" title="Capture the flag">
+    <img src="/images/icons/16x16/iconf_red2.png" alt="ctf" title="Capture the flag" height="16" width="16"/>
+   </a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_bfg.png" alt="bfg" title="Big Fucking Gun" height="16" width="16" srcset="/images/icons/svg/iconw_bfg.svg"/></a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td class="text-align_right">
+   287  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2007-12-25T00:42:02+00:00">2007-12-25</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/tom-rust7-01/">
+    First TT-R7 Map   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/tom-rust7-01.pk3">tom-rust7-01</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   0.61 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/push.png" alt="push" title="Jumppad/Launchramp" height="16" width="16" srcset="/images/icons/svg/push.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/slime.png" alt="slime" title="Slime" height="16" width="16" srcset="/images/icons/svg/slime.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   560  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2007-12-24T19:16:17+00:00">2007-12-24</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/%23rust7%23xmas/">
+    Xmas 2007   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/%23rust7%23xmas.pk3">#rust7#xmas</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   2.23 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_plasma.png" alt="pg" title="Plasmagun" height="16" width="16" srcset="/images/icons/svg/iconw_plasma.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_bfg.png" alt="bfg" title="Big Fucking Gun" height="16" width="16" srcset="/images/icons/svg/iconw_bfg.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/envirosuit.png" alt="enviro" title="Battle Suit" height="16" width="16" srcset="/images/icons/svg/envirosuit.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/haste.png" alt="haste" title="Haste" height="16" width="16" srcset="/images/icons/svg/haste.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/tele.png" alt="tele" title="Teleporter/Portal" height="16" width="16" srcset="/images/icons/svg/tele.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/slick.png" alt="ice" title="Slick" height="16" width="16" srcset="/images/icons/svg/slick.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/fog.png" alt="fog" title="Fog" height="16" width="16" srcset="/images/icons/svg/fog.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   480  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2007-12-24T10:59:47+00:00">2007-12-24</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/w1z-cosity/">
+    w1z-cosity   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/w1z-cosity.pk3">w1z-cosity</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   1.54 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/door.png" alt="door" title="Door/Gate" height="16" width="16" srcset="/images/icons/svg/door.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/slime.png" alt="slime" title="Slime" height="16" width="16" srcset="/images/icons/svg/slime.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/lava.png" alt="lava" title="Lava" height="16" width="16" srcset="/images/icons/svg/lava.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/sound.png" alt="sound" title="Ambient sounds" height="16" width="16" srcset="/images/icons/svg/Speaker_Icon.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   550  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2007-12-24T03:55:24+00:00">2007-12-24</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/forestfrag/">
+    forestfrag   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/forestfrag.pk3">forestfrag</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   5.63 MB  </td>
+
+  <td>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-gametype" title="Single Player">
+    sp   </a>
+   <a rel="glossary" href="/legend/#lg-gametype" title="Free For All">
+    ffa   </a>
+   <a rel="glossary" href="/legend/#lg-gametype" title="Tournament">
+    trn   </a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_shotgun.png" alt="sg" title="Shotgun" height="16" width="16" srcset="/images/icons/svg/iconw_shotgun.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_grenade.png" alt="gl" title="Grenade Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_grenade.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_lightning.png" alt="lg" title="Lightning Gun" height="16" width="16" srcset="/images/icons/svg/iconw_lightning.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_railgun.png" alt="rg" title="Railgun" height="16" width="16" srcset="/images/icons/svg/iconw_railgun.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_plasma.png" alt="pg" title="Plasmagun" height="16" width="16" srcset="/images/icons/svg/iconw_plasma.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_bfg.png" alt="bfg" title="Big Fucking Gun" height="16" width="16" srcset="/images/icons/svg/iconw_bfg.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_red.png" alt="ra" title="Body Armor (Red Armor)" height="16" width="16" srcset="/images/icons/svg/iconr_red.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_yellow.png" alt="ya" title="Combat Armor (Yellow Armor)" height="16" width="16" srcset="/images/icons/svg/iconr_yellow.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_shard.png" alt="sa" title="Shard Armor" height="16" width="16" srcset="/images/icons/svg/iconr_shard.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/envirosuit.png" alt="enviro" title="Battle Suit" height="16" width="16" srcset="/images/icons/svg/envirosuit.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/flight.png" alt="flight" title="Flight" height="16" width="16" srcset="/images/icons/svg/flight.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/haste.png" alt="haste" title="Haste" height="16" width="16" srcset="/images/icons/svg/haste.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_red.png" alt="health" title="Health" height="16" width="16" srcset="/images/icons/svg/iconh_red.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_yellow.png" alt="largeh" title="Large health" height="16" width="16" srcset="/images/icons/svg/iconh_yellow.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_mega.png" alt="mega" title="Mega health" height="16" width="16" srcset="/images/icons/svg/iconh_mega.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/invis.png" alt="invis" title="Invisibility" height="16" width="16" srcset="/images/icons/svg/invis.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/regen.png" alt="regen" title="Regeneration" height="16" width="16" srcset="/images/icons/svg/regen.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/push.png" alt="push" title="Jumppad/Launchramp" height="16" width="16" srcset="/images/icons/svg/push.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/moving.png" alt="moving" title="Moving object/platform" height="16" width="16" srcset="/images/icons/svg/moving.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/water.png" alt="w" title="Water" height="16" width="16" srcset="/images/icons/svg/water.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   226  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2007-12-23T22:23:24+00:00">2007-12-23</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/w1z-dom/">
+    w1z-dom   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/w1z-dom.pk3">w1z-dom</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   0.37 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_railgun.png" alt="rg" title="Railgun" height="16" width="16" srcset="/images/icons/svg/iconw_railgun.svg"/></a>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/door.png" alt="door" title="Door/Gate" height="16" width="16" srcset="/images/icons/svg/door.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/button.png" alt="button" title="Button" height="16" width="16" srcset="/images/icons/svg/button.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/tele.png" alt="tele" title="Teleporter/Portal" height="16" width="16" srcset="/images/icons/svg/tele.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/push.png" alt="push" title="Jumppad/Launchramp" height="16" width="16" srcset="/images/icons/svg/push.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/water.png" alt="w" title="Water" height="16" width="16" srcset="/images/icons/svg/water.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/lava.png" alt="lava" title="Lava" height="16" width="16" srcset="/images/icons/svg/lava.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   584  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2007-12-23T21:58:51+00:00">2007-12-23</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/jolly_holiday-2007/">
+    Merry Christmas   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/jolly_holiday-2007.pk3">jolly_holiday-2007</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   8.62 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_grenade.png" alt="gl" title="Grenade Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_grenade.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_plasma.png" alt="pg" title="Plasmagun" height="16" width="16" srcset="/images/icons/svg/iconw_plasma.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_red.png" alt="ra" title="Body Armor (Red Armor)" height="16" width="16" srcset="/images/icons/svg/iconr_red.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/envirosuit.png" alt="enviro" title="Battle Suit" height="16" width="16" srcset="/images/icons/svg/envirosuit.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_mega.png" alt="mega" title="Mega health" height="16" width="16" srcset="/images/icons/svg/iconh_mega.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/door.png" alt="door" title="Door/Gate" height="16" width="16" srcset="/images/icons/svg/door.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/tele.png" alt="tele" title="Teleporter/Portal" height="16" width="16" srcset="/images/icons/svg/tele.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/slick.png" alt="ice" title="Slick" height="16" width="16" srcset="/images/icons/svg/slick.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/water.png" alt="w" title="Water" height="16" width="16" srcset="/images/icons/svg/water.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/lava.png" alt="lava" title="Lava" height="16" width="16" srcset="/images/icons/svg/lava.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   712  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2007-12-23T18:17:16+00:00">2007-12-23</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/%23rust7%23dahaka/">
+    For [?]   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/%23rust7%23dahaka.pk3">#rust7#dahaka</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   0.82 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_plasma.png" alt="pg" title="Plasmagun" height="16" width="16" srcset="/images/icons/svg/iconw_plasma.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_bfg.png" alt="bfg" title="Big Fucking Gun" height="16" width="16" srcset="/images/icons/svg/iconw_bfg.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/envirosuit.png" alt="enviro" title="Battle Suit" height="16" width="16" srcset="/images/icons/svg/envirosuit.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/haste.png" alt="haste" title="Haste" height="16" width="16" srcset="/images/icons/svg/haste.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/tele.png" alt="tele" title="Teleporter/Portal" height="16" width="16" srcset="/images/icons/svg/tele.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/slick.png" alt="ice" title="Slick" height="16" width="16" srcset="/images/icons/svg/slick.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/fog.png" alt="fog" title="Fog" height="16" width="16" srcset="/images/icons/svg/fog.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   398  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2007-12-23T16:43:47+00:00">2007-12-23</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/mjc02-2vq3/">
+    Mega Jumping Cup 02 ...   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/mjc02-2vq3.pk3">mjc02-2vq3</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   0.87 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   550  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2007-12-23T09:49:14+00:00">2007-12-23</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/mjc02-2/">
+    Mega Jumping Cup 02 ...   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/mjc02-2.pk3">mjc02-2</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   0.87 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   777  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2007-12-22T14:21:27+00:00">2007-12-22</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/run_best/">
+    map for BeST   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/run_best.pk3">run_best</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   2.39 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_grenade.png" alt="gl" title="Grenade Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_grenade.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_railgun.png" alt="rg" title="Railgun" height="16" width="16" srcset="/images/icons/svg/iconw_railgun.svg"/></a>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_plasma.png" alt="pg" title="Plasmagun" height="16" width="16" srcset="/images/icons/svg/iconw_plasma.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconr_red.png" alt="ra" title="Body Armor (Red Armor)" height="16" width="16" srcset="/images/icons/svg/iconr_red.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/envirosuit.png" alt="enviro" title="Battle Suit" height="16" width="16" srcset="/images/icons/svg/envirosuit.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/iconh_mega.png" alt="mega" title="Mega health" height="16" width="16" srcset="/images/icons/svg/iconh_mega.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/regen.png" alt="regen" title="Regeneration" height="16" width="16" srcset="/images/icons/svg/regen.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/door.png" alt="door" title="Door/Gate" height="16" width="16" srcset="/images/icons/svg/door.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/button.png" alt="button" title="Button" height="16" width="16" srcset="/images/icons/svg/button.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/tele.png" alt="tele" title="Teleporter/Portal" height="16" width="16" srcset="/images/icons/svg/tele.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/moving.png" alt="moving" title="Moving object/platform" height="16" width="16" srcset="/images/icons/svg/moving.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/slick.png" alt="ice" title="Slick" height="16" width="16" srcset="/images/icons/svg/slick.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/fog.png" alt="fog" title="Fog" height="16" width="16" srcset="/images/icons/svg/fog.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   575  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2007-12-22T00:45:17+00:00">2007-12-22</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/kiccel_cup10/">
+    kiccel_cup10   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/kiccel_cup10.pk3">kiccel_cup10</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   1.38 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/water.png" alt="w" title="Water" height="16" width="16" srcset="/images/icons/svg/water.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/lava.png" alt="lava" title="Lava" height="16" width="16" srcset="/images/icons/svg/lava.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   2,216  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2007-12-21T16:46:35+00:00">2007-12-21</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/cjscomp30_5/">
+    Cool Jumping Competi...   </a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <a href="/maps/downloads/cjscomp30_5.pk3">cjscomp30_5</a>
+  </td>
+
+  <td class="white-space_nowrap">
+   <span class="visibility_hidden">0</span>
+   <span class="visibility_hidden">0</span>
+   1.63 MB  </td>
+
+  <td>
+   <a href="http://q3defrag.org/files/"><img src="/images/icons/16x16/defrag.png" alt="df" title="Defrag" height="16" width="16" srcset="/images/icons/svg/defrag.svg"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>
+   <a rel="glossary" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-weapon"><img src="/images/icons/16x16/iconw_rocket.png" alt="rl" title="Rocket Launcher" height="16" width="16" srcset="/images/icons/svg/iconw_rocket.svg"/></a>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-item"><img src="/images/icons/16x16/envirosuit.png" alt="enviro" title="Battle Suit" height="16" width="16" srcset="/images/icons/svg/envirosuit.svg"/></a> 
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/slick.png" alt="ice" title="Slick" height="16" width="16" srcset="/images/icons/svg/slick.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/fog.png" alt="fog" title="Fog" height="16" width="16" srcset="/images/icons/svg/fog.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/timer.png" alt="t" title="Timer" height="16" width="16" srcset="/images/icons/svg/timer.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+   1,564  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2007-12-20T06:12:38+00:00">2007-12-20</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/ut4_abbey/">
+    Abbey   </a>
+  </td>
+
+  <td class="maps_mod_download_filename">
+   zpak000_assets   <a href="http://www.urbanterror.net"><img src="/images/icons/16x16/urbanterror.png" alt="ut" title="Urban Terror" height="16" width="16"/></a> 
+  </td>
+
+  <td class="white-space_nowrap">
+   714.82 MB  </td>
+
+  <td>
+   <a href="http://www.urbanterror.net"><img src="/images/icons/16x16/urbanterror.png" alt="ut" title="Urban Terror" height="16" width="16"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-gametype" title="Capture the flag">
+    <img src="/images/icons/16x16/iconf_red2.png" alt="ctf" title="Capture the flag" height="16" width="16"/>
+   </a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/water.png" alt="w" title="Water" height="16" width="16" srcset="/images/icons/svg/water.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/break.png" alt="break" title="breakable" height="16" width="16" srcset="/images/icons/svg/break.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/sound.png" alt="sound" title="Ambient sounds" height="16" width="16" srcset="/images/icons/svg/Speaker_Icon.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2007-12-20T06:12:38+00:00">2007-12-20</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/ut4_abbeyctf/">
+    Abbey CTF   </a>
+  </td>
+
+  <td class="maps_mod_download_filename">
+   zpak000_assets  </td>
+
+  <td class="white-space_nowrap">
+  </td>
+
+  <td>
+   <a href="http://www.urbanterror.net"><img src="/images/icons/16x16/urbanterror.png" alt="ut" title="Urban Terror" height="16" width="16"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-gametype" title="Capture the flag">
+    <img src="/images/icons/16x16/iconf_red2.png" alt="ctf" title="Capture the flag" height="16" width="16"/>
+   </a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/water.png" alt="w" title="Water" height="16" width="16" srcset="/images/icons/svg/water.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/break.png" alt="break" title="breakable" height="16" width="16" srcset="/images/icons/svg/break.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/sound.png" alt="sound" title="Ambient sounds" height="16" width="16" srcset="/images/icons/svg/Speaker_Icon.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2007-12-20T06:12:38+00:00">2007-12-20</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/ut4_algiers/">
+    Algiers   </a>
+  </td>
+
+  <td class="maps_mod_download_filename">
+   zpak000_assets  </td>
+
+  <td class="white-space_nowrap">
+  </td>
+
+  <td>
+   <a href="http://www.urbanterror.net"><img src="/images/icons/16x16/urbanterror.png" alt="ut" title="Urban Terror" height="16" width="16"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-gametype" title="Capture the flag">
+    <img src="/images/icons/16x16/iconf_red2.png" alt="ctf" title="Capture the flag" height="16" width="16"/>
+   </a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/break.png" alt="break" title="breakable" height="16" width="16" srcset="/images/icons/svg/break.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/sound.png" alt="sound" title="Ambient sounds" height="16" width="16" srcset="/images/icons/svg/Speaker_Icon.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2007-12-20T06:12:38+00:00">2007-12-20</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/ut4_ambush/">
+    Ambush   </a>
+  </td>
+
+  <td class="maps_mod_download_filename">
+   zpak000_assets  </td>
+
+  <td class="white-space_nowrap">
+  </td>
+
+  <td>
+   <a href="http://www.urbanterror.net"><img src="/images/icons/16x16/urbanterror.png" alt="ut" title="Urban Terror" height="16" width="16"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-gametype" title="Capture the flag">
+    <img src="/images/icons/16x16/iconf_red2.png" alt="ctf" title="Capture the flag" height="16" width="16"/>
+   </a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/sound.png" alt="sound" title="Ambient sounds" height="16" width="16" srcset="/images/icons/svg/Speaker_Icon.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2007-12-20T06:12:38+00:00">2007-12-20</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/ut4_austria/">
+    Austria   </a>
+  </td>
+
+  <td class="maps_mod_download_filename">
+   zpak000_assets  </td>
+
+  <td class="white-space_nowrap">
+  </td>
+
+  <td>
+   <a href="http://www.urbanterror.net"><img src="/images/icons/16x16/urbanterror.png" alt="ut" title="Urban Terror" height="16" width="16"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-gametype" title="Capture the flag">
+    <img src="/images/icons/16x16/iconf_red2.png" alt="ctf" title="Capture the flag" height="16" width="16"/>
+   </a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/sound.png" alt="sound" title="Ambient sounds" height="16" width="16" srcset="/images/icons/svg/Speaker_Icon.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2007-12-20T06:12:38+00:00">2007-12-20</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/ut4_casa/">
+    Casa   </a>
+  </td>
+
+  <td class="maps_mod_download_filename">
+   zpak000_assets  </td>
+
+  <td class="white-space_nowrap">
+  </td>
+
+  <td>
+   <a href="http://www.urbanterror.net"><img src="/images/icons/16x16/urbanterror.png" alt="ut" title="Urban Terror" height="16" width="16"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-gametype" title="Capture the flag">
+    <img src="/images/icons/16x16/iconf_red2.png" alt="ctf" title="Capture the flag" height="16" width="16"/>
+   </a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/water.png" alt="w" title="Water" height="16" width="16" srcset="/images/icons/svg/water.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/sound.png" alt="sound" title="Ambient sounds" height="16" width="16" srcset="/images/icons/svg/Speaker_Icon.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2007-12-20T06:12:38+00:00">2007-12-20</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/ut4_crossing/">
+    Crossing   </a>
+  </td>
+
+  <td class="maps_mod_download_filename">
+   zpak000_assets  </td>
+
+  <td class="white-space_nowrap">
+  </td>
+
+  <td>
+   <a href="http://www.urbanterror.net"><img src="/images/icons/16x16/urbanterror.png" alt="ut" title="Urban Terror" height="16" width="16"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-gametype" title="Capture the flag">
+    <img src="/images/icons/16x16/iconf_red2.png" alt="ctf" title="Capture the flag" height="16" width="16"/>
+   </a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/door.png" alt="door" title="Door/Gate" height="16" width="16" srcset="/images/icons/svg/door.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/break.png" alt="break" title="breakable" height="16" width="16" srcset="/images/icons/svg/break.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/sound.png" alt="sound" title="Ambient sounds" height="16" width="16" srcset="/images/icons/svg/Speaker_Icon.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="vertical-align_top">
+
+
+  <td><time datetime="2007-12-20T06:12:38+00:00">2007-12-20</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/ut4_dressingroom/">
+    Dressing Room   </a>
+  </td>
+
+  <td class="maps_mod_download_filename">
+   zpak000_assets  </td>
+
+  <td class="white-space_nowrap">
+  </td>
+
+  <td>
+   <a href="http://www.urbanterror.net"><img src="/images/icons/16x16/urbanterror.png" alt="ut" title="Urban Terror" height="16" width="16"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-gametype" title="Capture the flag">
+    <img src="/images/icons/16x16/iconf_red2.png" alt="ctf" title="Capture the flag" height="16" width="16"/>
+   </a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/water.png" alt="w" title="Water" height="16" width="16" srcset="/images/icons/svg/water.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+ <tr class="maps_table_row_alt">
+
+
+  <td><time datetime="2007-12-20T06:12:38+00:00">2007-12-20</time></td>
+
+  <td class="white-space_nowrap">
+   <a href="/map/ut4_eagle/">
+    Eagle   </a>
+  </td>
+
+  <td class="maps_mod_download_filename">
+   zpak000_assets  </td>
+
+  <td class="white-space_nowrap">
+  </td>
+
+  <td>
+   <a href="http://www.urbanterror.net"><img src="/images/icons/16x16/urbanterror.png" alt="ut" title="Urban Terror" height="16" width="16"/></a>
+  </td>
+  <td class="maps_gametypes">
+   <a rel="glossary" href="/legend/#lg-gametype" title="Capture the flag">
+    <img src="/images/icons/16x16/iconf_red2.png" alt="ctf" title="Capture the flag" height="16" width="16"/>
+   </a>
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/water.png" alt="w" title="Water" height="16" width="16" srcset="/images/icons/svg/water.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/break.png" alt="break" title="breakable" height="16" width="16" srcset="/images/icons/svg/break.svg"/></a> 
+   <a rel="glossary" href="/legend/#lg-func"><img src="/images/icons/16x16/sound.png" alt="sound" title="Ambient sounds" height="16" width="16" srcset="/images/icons/svg/Speaker_Icon.svg"/></a> 
+  </td>
+  <td class="text-align_right">
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+
+
+ </tr>
+
+
+
+
+</table>
+
+
+
+
+<span id="blankbar">&nbsp;</span>
+
+<nav>
+<span id="resultbar">
+ <a href="/maps/?map=&amp;page=183&amp;show=20" title="20 results per page">
+  20 </a>
+ <a href="/maps/?map=&amp;page=183&amp;show=30" title="30 results per page">
+  30 </a>
+ <a href="/maps/?map=&amp;page=183&amp;show=40" title="40 results per page">
+  40 </a>
+ <span class="resultbaritemcurrent" title="50 results per page">50</span>
+</span>
+</nav>
+
+<nav>
+<ul class="maps_pagebar">
+ <li>
+  <a rel="start" 
+   href="/maps/?map=&amp;page=0&amp;show=50" title="First page">&lt;&lt;</a>
+ </li>
+ <li>
+  <a 
+   rel="prev" 
+   href="/maps/?map=&amp;page=182&amp;show=50">previous page</a>
+ </li>
+
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=178&amp;show=50">179</a>
+ </li>
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=179&amp;show=50">180</a>
+ </li>
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=180&amp;show=50">181</a>
+ </li>
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=181&amp;show=50">182</a>
+ </li>
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=182&amp;show=50">183</a>
+ </li>
+ <li>
+  <a 
+   class="maps_pagebar_item_current" 
+   href="/maps/?map=&amp;page=183&amp;show=50">184</a>
+ </li>
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=184&amp;show=50">185</a>
+ </li>
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=185&amp;show=50">186</a>
+ </li>
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=186&amp;show=50">187</a>
+ </li>
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=187&amp;show=50">188</a>
+ </li>
+
+ <li>
+  <a 
+   rel="next" 
+   href="/maps/?map=&amp;page=184&amp;show=50">next page</a>
+ </li>
+ <li>
+  <a 
+   href="/maps/?map=&amp;page=338&amp;show=50" title="Last page">&gt;&gt;</a>
+ </li>
+</ul>
+</nav>
+<a href="/test.php/2"></a><nav>
+<div id="main_language_container">
+ <a href="https://cs.ws.q3df.org/maps/?map=&amp;page=183&amp;show=50" 
+  lang="cs" hreflang="cs">&#268;esky</a>
+ <a href="https://de.ws.q3df.org/maps/?map=&amp;page=183&amp;show=50" 
+  lang="de" hreflang="de">Deutsch</a>
+ <a href="https://ee.ws.q3df.org/maps/?map=&amp;page=183&amp;show=50" 
+  lang="ee" hreflang="ee">Eesti</a>
+ <a href="https://en.ws.q3df.org/maps/?map=&amp;page=183&amp;show=50" 
+  id="main_language_link_active" 
+  lang="en" hreflang="en">English</a>
+ <a href="https://es.ws.q3df.org/maps/?map=&amp;page=183&amp;show=50" 
+  lang="es" hreflang="es">Espa&ntilde;ol</a>
+ <a href="https://fr.ws.q3df.org/maps/?map=&amp;page=183&amp;show=50" 
+  lang="fr" hreflang="fr">Fran&ccedil;ais</a>
+ <a href="https://it.ws.q3df.org/maps/?map=&amp;page=183&amp;show=50" 
+  lang="it" hreflang="it">Italiano</a>
+ <a href="https://lt.ws.q3df.org/maps/?map=&amp;page=183&amp;show=50" 
+  lang="lt" hreflang="lt">Lietuvi&#353;kai</a>
+ <a href="https://nl.ws.q3df.org/maps/?map=&amp;page=183&amp;show=50" 
+  lang="nl" hreflang="nl">Nederlands</a>
+ <a href="https://pl.ws.q3df.org/maps/?map=&amp;page=183&amp;show=50" 
+  lang="pl" hreflang="pl">Polski</a>
+ <a href="https://ru.ws.q3df.org/maps/?map=&amp;page=183&amp;show=50" 
+  lang="ru" hreflang="ru">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;</a>
+ <a href="https://fi.ws.q3df.org/maps/?map=&amp;page=183&amp;show=50" 
+  lang="fi" hreflang="fi">Suomi</a>
+ <a href="https://sv.ws.q3df.org/maps/?map=&amp;page=183&amp;show=50" 
+  lang="sv" hreflang="sv">Svenska</a>
+</div>
+</nav>
+
+</div> <!-- main_content_container -->
+
+<nav>
+<div id="main_bottom_navigation_container">
+<a href="/about/">About</a>
+<a href="/statistics/">Statistics</a>
+<time datetime="2020-12-12T19:07:39+00:00">19:07 2020-12-12</time>
+<a href="/donations/">Donations</a>
+<a href="/contact/">Contact</a>
+</div>
+</nav>
+
+</div>
+
+</body>
+</html>

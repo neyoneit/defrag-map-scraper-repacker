@@ -1,0 +1,14 @@
+import os
+from os.path import dirname
+
+CONN_STRING = f"sqlite+pysqlite:///data/db.sqlite"
+
+MAPS_OUTPUT_DIRECTORY = os.path.join(dirname(__file__), 'data', 'maps')
+
+MINIFIED_MAPS_OUTPUT_DIRECTORY = os.path.join(dirname(__file__), 'data', 'maps-minified')
+
+MAPS_CUSTOM_INBOX = os.path.join(dirname(__file__), 'maps-custom-inbox')
+
+# MAPS_CUSTOM_PROCESSED should be on the same partition as MAPS_CUSTOM_INBOX in order to allow moving the files
+# atomically and without copying.
+MAPS_CUSTOM_PROCESSED = os.path.join(dirname(__file__), 'maps-custom-processed')
