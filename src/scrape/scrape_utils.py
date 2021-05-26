@@ -27,7 +27,7 @@ def get(url: str):
         return retry_web(web_session.get, [url]).text
     cache_dir = os.environ.get('DEBUG_CACHE_DIRECTORY')
     if cache_dir is not None:
-        cache_file = os.path.join(cache_dir, base64.b64encode(url.encode("utf-8")).decode("utf-8"))
+        cache_file = os.path.join(cache_dir, base64.b64encode(url.encode("utf-8")).decode("utf-8").replace('/', '-'))
         if os.path.exists(cache_file):
             with open(cache_file) as f:
                 return f.read()
