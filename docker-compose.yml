@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    restart: always
+    restart: "no"
     container_name: maps-downloader
     volumes:
       - "./data:/wd/data"
