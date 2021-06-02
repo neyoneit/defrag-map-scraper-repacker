@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+ <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"/>
+ <link rel="icon" type="image/svg+xml" href="/images/favicon.svg"/>
+ <link rel="search" type="application/opensearchdescription+xml" title="Worldspawn maps" href="/map_search.xml"/>
+ <link rel="search" type="application/opensearchdescription+xml" title="Worldspawn models" href="/model_search.xml"/>
+ <meta charset="UTF-8"/>
+ <meta name="description" content="Quake 3 Arena Archive"/>
+ <meta name="keywords" content="Q3A, Quake III Arena, map, maps, level, archive, custom maps, skin, skins, DeFRaG, game"/>
+ <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+ <noscript><style>.no-js-hide{display:none;}</style></noscript>
+ <title>dm_13v2 - Worldspawn</title>
+<!--[if IE 6]><style type="text/css">.lcol {background-color: #FFFFFF;}</style><![endif]-->
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/css/main_ie_hacks.css"/><![endif]-->
+  
+</head>
+<body class="light-theme">
+
+<div id="main_container">
+
+<nav>
+<div id="main_topNavigationContainer">
+ <ul>
+  <li><a href="/maps/" id="main_tab_link_active">Maps</a></li>
+  <li><a href="/models/">Models</a></li>
+  <li><a href="/level_design/">Level design</a></li>
+  <li><a href="/search/" rel="search">Search</a></li>
+  <li><a href="/upload/">Upload map</a></li>
+  <li><a href="/links/">Links</a></li>
+ </ul>
+ <div id="main_topNavigationSearchContainer">
+   <form action="/maps/" method="get" id="main_topNavigationSearch">
+    <fieldset>
+     <label for="lmapname" accesskey="m">Map</label>
+     <input name="map" id="lmapname" type="text" maxlength="64" autofocus="autofocus" placeholder="Search"/>
+     <button id="main_topNavigationSearchButton" type="submit">
+      <img src="/images/search-icon.png" srcset="/images/search-icon.svg" height="16" width="16" alt="Search" title="Search"/>
+     </button>
+    </fieldset>
+   </form>
+ </div>
+ <span class="clear_float"></span>
+</div>
+</nav>
+
+<div id="main_content_container">
+<div id="mapdetails_container">
+
+<h1>Map details</h1>
+
+ <div>
+   <img id="mapdetails_levelshot" src="/images/levelshots/512x384/dm_13v2.jpg" width="512" height="384" alt="" title="Levelshot of the map: dm_13v2" srcset="/images/levelshots/512x384/dm_13v2.jpg?fallback=1"/>
+
+      <table id="mapdetails_data_table">
+       <tr><td>Mapname</td><td>dm_13v2</td></tr>
+       <tr>
+        <td>Filename</td>
+        <td>
+         dm_13v2<span class="map_extension">.bsp</span>
+        </td>
+       </tr> 
+       <tr>
+        <td>Author</td>
+        <td><a href="/maps/?map=&amp;au=DM_" id="mapdetails_author_link">DM_</a></td>
+       </tr>
+       <tr>
+        <td>Modification</td>
+        <td>
+         <a href="http://q3defrag.org/files/"><img src="/images/icons/32x32/defrag.png" alt="Defrag" width="32" height="32" srcset="/images/icons/svg/defrag.svg" title="Defrag"/></a>
+        </td>
+       </tr>
+       <tr>
+        <td>Items</td>
+        <td>
+         <a rel="help" href="/legend/#lg-item"><img src="/images/icons/32x32/envirosuit.png" alt="enviro" width="32" height="32" srcset="/images/icons/svg/envirosuit.svg" title="Battle Suit"/></a>
+         <a rel="help" href="/legend/#lg-item"><img src="/images/icons/32x32/haste.png" alt="haste" width="32" height="32" srcset="/images/icons/svg/haste.svg" title="Haste"/></a>
+        </td>
+       </tr>
+       <tr>
+        <td>Functions</td>
+        <td>
+         <a rel="help" href="/legend/#lg-func"><img src="/images/icons/32x32/tele.png" alt="tele" width="32" height="32" srcset="/images/icons/svg/tele.svg" title="Teleporter/Portal"/></a>
+         <a rel="help" href="/legend/#lg-func"><img src="/images/icons/32x32/timer.png" alt="t" width="32" height="32" srcset="/images/icons/svg/timer.svg" title="Timer"/></a>
+        </td>
+       </tr>
+       <tr>
+        <td>Difficult level</td>
+        <td>
+         <ul class="mapdetails_rating_list">
+          <li><img src="/images/icons/32x32/skill4.png" alt="Q " title="" width="32" height="32" srcset="/images/icons/svg/skill4.svg"/></li>
+          <li><img src="/images/icons/32x32/skill4.png" alt="Q " title="" width="32" height="32" srcset="/images/icons/svg/skill4.svg"/></li>
+          <li><img src="/images/icons/32x32/skill1.png" alt=" " title="" width="32" height="32" srcset="/images/icons/svg/skill1.svg"/></li>
+          <li><img src="/images/icons/32x32/skill1.png" alt=" " title="" width="32" height="32" srcset="/images/icons/svg/skill1.svg"/></li>
+          <li><img src="/images/icons/32x32/skill6.png" alt="Q " title="" width="32" height="32"/></li>
+         </ul>
+        </td>
+       </tr>
+       <tr>
+        <td>Defrag style</td>
+        <td>
+         <a rel="help" href="/legend/#lg-dftyle" title="run" class="text-decoration_none">run</a>
+        </td>
+       </tr>
+       <tr>
+        <td>Defrag physics</td>
+        <td>
+         <a rel="help" href="/legend/#lg-dfphysic" title="Vanilla Quake 3" class="text-decoration_none">vq3</a>,          <a rel="help" href="/legend/#lg-dfphysic" title="Challenge Promode" class="text-decoration_none">cpm</a>        </td>
+       </tr>
+       <tr>
+        <td class="white-space_nowrap">Defrag online records</td>
+        <td>
+         q3df.org: 
+          <a href="https://www.q3df.org/records/details?physic=0&amp;map=dm_13v2">vq3</a>, 
+          <a href="https://www.q3df.org/records/details?physic=1&amp;map=dm_13v2">cpm</a>
+        </td>
+       </tr>
+       <tr>
+        <td>Defrag demos</td>
+        <td>
+         defrag.ru: 
+          <a href="http://defrag.ru/defrag/maps_show.php?name=dm_13v2">vq3</a>, 
+          <a href="http://defrag.ru/defrag/cpm/maps_show.php?name=dm_13v2">cpm</a>
+        </td>
+       </tr>
+       <tr><td>Release date</td><td><time datetime="2021-05-05">2021-05-05</time></td></tr>
+       <tr>
+        <td>Pk3 file</td>
+        <td>
+         <a href="/maps/downloads/dm_13v2.pk3" class="text-decoration_none">dm_13v2</a><span class="map_download_extension">.pk3</span> 
+<span id="mapdetails_report_container">
+[ <a href="/maps/report/?report=dm_13v2">Report</a> ]
+</span>
+<div class="map_share_container no-js-hide">
+<button onclick="toggleVisibilityButton('map_share_dropdown')">Share</button>
+<div id="map_share_dropdown">
+<button onclick="copyToClipboard('https://ws.q3df.org/map/dm_13v2/')">Copy map link to clipboard</button>
+<button onclick="copyToClipboard('https://ws.q3df.org/maps/downloads/dm_13v2.pk3')">Copy map download link to clipboard</button>
+</div>
+</div>        </td>
+       </tr>
+       <tr>
+        <td>File size</td>
+        <td title="1.04 megabytes">
+         1.04 MB        </td>
+       </tr>
+       <tr>
+        <td>Checksum</td>
+        <td><span id="map_md5_container">MD5: 6202d0df8433555d9fd174f0f00250ea         </span>
+        </td>
+      </tr>
+       <tr>
+        <td>Downloads</td><td>87</td>
+       </tr>
+      </table>
+ </div>
+
+  <p>
+   <a href="/maps/downloads/dm_13v2.pk3" class="mapdetails_bigdownloadlink">Download dm_13v2.pk3!</a>
+  </p>
+
+<div>
+ <div id="mapdetails_sub_container">
+ </div>
+ <div id="mapdetails_mapvote">
+<div class="text-align_left">
+<h2>Voting</h2>
+
+   <form action="#" method="post">
+    <table id="mapvote_table">
+     <tr>
+      <td>Rating</td>
+      <td><img src="/images/icons/32x32/stars1.png" alt="*"/></td>
+      <td><img src="/images/icons/32x32/stars2.png" alt="**"/></td>
+      <td><img src="/images/icons/32x32/stars3.png" alt="***"/></td>
+      <td><img src="/images/icons/32x32/stars4.png" alt="****"/></td>
+      <td><img src="/images/icons/32x32/stars5.png" alt="*****"/></td>
+      <td>No evaluation</td>
+     </tr>
+     <tr class="text-align_center">
+      <td></td>
+      <td><input type="radio" name="rating" value="1"/></td>
+      <td><input type="radio" name="rating" value="2"/></td>
+      <td><input type="radio" name="rating" value="3"/></td>
+      <td><input type="radio" name="rating" value="4"/></td>
+      <td><input type="radio" name="rating" value="5"/></td>
+      <td><input type="radio" name="rating" value="0" checked="checked"/></td>
+     </tr>
+    </table>
+    <p>
+     <input type="hidden" name="code" value="XSVC9"/>
+     There need to be at least 10 votes for a usable rating.    </p>
+    <p>
+     <input type="submit" value="Vote" class="submit_button"/>
+    </p>
+   </form>
+</div>
+ </div>
+</div>
+
+<p>Other maps by the author:</p>
+
+   <ul class="mapdetails_maplist_map">
+    <li>
+     <a rel="next" href="/map/dm_13/"><img src="/images/levelshots/128x96/dm_13.jpg" width="128" height="96" alt="" srcset="/images/levelshots/128x96/dm_13.jpg?fallback=1"/></a>
+    </li>
+    <li>
+          <a rel="next" href="/map/dm_13/" title="dm_13">
+      dm_13     </a>
+    </li>
+    <li>
+     &nbsp;
+    </li>
+   </ul>
+   <ul class="mapdetails_maplist_map">
+    <li>
+     <a rel="next" href="/map/dm_12/"><img src="/images/levelshots/128x96/dm_12.jpg" width="128" height="96" alt="" srcset="/images/levelshots/128x96/dm_12.jpg?fallback=1"/></a>
+    </li>
+    <li>
+          <a rel="next" href="/map/dm_12/" title="dm_12">
+      dm_12     </a>
+    </li>
+    <li>
+     &nbsp;
+    </li>
+   </ul>
+   <ul class="mapdetails_maplist_map">
+    <li>
+     <a rel="next" href="/map/dm_11/"><img src="/images/levelshots/128x96/dm_11.jpg" width="128" height="96" alt="" srcset="/images/levelshots/128x96/dm_11.jpg?fallback=1"/></a>
+    </li>
+    <li>
+          <a rel="next" href="/map/dm_11/" title="dm_11">
+      dm_11     </a>
+    </li>
+    <li>
+     &nbsp;
+    </li>
+   </ul>
+   <ul class="mapdetails_maplist_map">
+    <li>
+     <a rel="next" href="/map/dm_10/"><img src="/images/levelshots/128x96/dm_10.jpg" width="128" height="96" alt="" srcset="/images/levelshots/128x96/dm_10.jpg?fallback=1"/></a>
+    </li>
+    <li>
+          <a rel="next" href="/map/dm_10/" title="dm_10">
+      dm_10     </a>
+    </li>
+    <li>
+     &nbsp;
+    </li>
+   </ul>
+   <ul class="mapdetails_maplist_map">
+    <li>
+     <a rel="next" href="/map/smc02_DM_/"><img src="/images/levelshots/128x96/smc02_dm_.jpg" width="128" height="96" alt="" srcset="/images/levelshots/128x96/smc02_dm_.jpg?fallback=1"/></a>
+    </li>
+    <li>
+          <a rel="next" href="/map/smc02_DM_/" title="smc02_DM_">
+      smc02_DM_     </a>
+    </li>
+    <li>
+     &nbsp;
+    </li>
+   </ul>
+
+</div>
+
+<span id="map_text_data" data-md5="6202d0df8433555d9fd174f0f00250ea" data-filename="dm_13v2.pk3" data-text_read_error="Could not read the file." data-text_checksum_ok="Checksum OK." data-text_checksum_fail="Checksum fail:" data-text_check_file="Check file"></span>
+
+<script src="/javascript/maps/detail.js" type="text/javascript"></script>
+<script src="/javascript/md5.js" type="text/javascript"></script><nav>
+<div id="main_language_container">
+ <a href="https://cs.ws.q3df.org/map/dm_13v2" 
+  lang="cs" hreflang="cs">&#268;esky</a>
+ <a href="https://de.ws.q3df.org/map/dm_13v2" 
+  lang="de" hreflang="de">Deutsch</a>
+ <a href="https://ee.ws.q3df.org/map/dm_13v2" 
+  lang="ee" hreflang="ee">Eesti</a>
+ <a href="https://en.ws.q3df.org/map/dm_13v2" 
+  id="main_language_link_active" 
+  lang="en" hreflang="en">English</a>
+ <a href="https://es.ws.q3df.org/map/dm_13v2" 
+  lang="es" hreflang="es">Espa&ntilde;ol</a>
+ <a href="https://fr.ws.q3df.org/map/dm_13v2" 
+  lang="fr" hreflang="fr">Fran&ccedil;ais</a>
+ <a href="https://it.ws.q3df.org/map/dm_13v2" 
+  lang="it" hreflang="it">Italiano</a>
+ <a href="https://lt.ws.q3df.org/map/dm_13v2" 
+  lang="lt" hreflang="lt">Lietuvi&#353;kai</a>
+ <a href="https://nl.ws.q3df.org/map/dm_13v2" 
+  lang="nl" hreflang="nl">Nederlands</a>
+ <a href="https://pl.ws.q3df.org/map/dm_13v2" 
+  lang="pl" hreflang="pl">Polski</a>
+ <a href="https://ru.ws.q3df.org/map/dm_13v2" 
+  lang="ru" hreflang="ru">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;</a>
+ <a href="https://fi.ws.q3df.org/map/dm_13v2" 
+  lang="fi" hreflang="fi">Suomi</a>
+ <a href="https://sv.ws.q3df.org/map/dm_13v2" 
+  lang="sv" hreflang="sv">Svenska</a>
+</div></nav>
+
+</div>
+<nav>
+<div id="main_bottom_navigation_container">
+<a href="/about/">About</a>
+<a href="/statistics/">Statistics</a>
+<time datetime="2021-05-26T14:03:36+00:00">14:03 2021-05-26</time>
+<a href="?dark=1">Dark-Theme</a>
+<a href="/donations/">Donations</a>
+<a rel="nofollow" href="/contact/">Contact</a>
+</div></nav>
+
+</div>
+</body>
+</html>

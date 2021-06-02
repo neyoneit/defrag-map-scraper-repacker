@@ -5,7 +5,8 @@ from enum import Enum
 from typing import NamedTuple, List
 
 import sqlalchemy
-from sqlalchemy import Table, Column, Integer, String, Date, UniqueConstraint, Boolean, select, func, Index
+from sqlalchemy import Table, Column, Integer, String, Date, UniqueConstraint, Boolean, select, func, Index, DateTime, \
+    text
 
 from models.common import Base
 
@@ -88,10 +89,22 @@ def all_expanded_columns():
 
 
 class MapRecord(Base):
+
+    CRAWLING_LEVEL_MAX = 1
+
     __table__ = Table(
         'ws_map_record', Base.metadata,
         Column('id', Integer, primary_key=True),
         Column('release_date', Date),
+        # 0 to CRAWLING_LEVEL_MAX; Values lower than # 0 to CRAWLING_LEVEL_MAX indicate the need to crawl more.
+        Column('crawling_level', Integer, server_default=text("0"), index=True),
+        Column('map_thumbnail_url', String(512), nullable=True),
+        Column('map_details_panorama_url', String(512), nullable=True),
+        Column('map_details_topview_url', String(512), nullable=True),
+        Column('author', String(512), nullable=True),
+        Column('md5', String(32), nullable=True),
+        Column('downloads', Integer, nullable=True),
+        Column('downloads_checked', DateTime, nullable=True),
         Column('name', String(50)),
         Column('link', String(100)),
         Column('pk3_file', String(50)),

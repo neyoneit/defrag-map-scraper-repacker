@@ -27,7 +27,7 @@ from settings import MAPS_OUTPUT_DIRECTORY, MINIFIED_MAPS_OUTPUT_DIRECTORY, MAPS
 from utils import groupby_unsorted, mkdirs_if_not_exists
 from ws.maps_repack import ZipSplit, ZipChunksSplit, ensure_pk3_repack, ZipSingleFilesSplit, PerPk3Split
 from ws.model import MapRecord, map_exists, MapPackAssignment, ZipLocation
-from ws.parser import find_rows
+from ws.parser import find_rows, parse_details
 from zip_cache import CachedZipFile
 
 HOST = "https://ws.q3df.org"
@@ -273,10 +273,45 @@ class RepackStyle(Enum):
         return self.name
 
 
+def crawl_details(db_session):
+    connection = db_session()
+    def get_missing():
+        return select(['*']).where(MapRecord.crawling_level < MapRecord.CRAWLING_LEVEL_MAX)
+
+    items_to_update = connection.execute(get_missing()).fetchall()
+    print(f'Need to fetch details for {len(items_to_update)} items')
+    for map_record in items_to_update:
+        if connection.execute(get_missing().where(MapRecord.id == map_record.id)).first() is None:
+            print(f"Skipping as already processed {map_record.pk3_file}")
+            continue
+
+        try:
+            basic_details = parse_details(get(HOST + map_record.link))
+            if basic_details.submenu_others == []:
+                details = basic_details
+            elif basic_details.submenu_others == [('Panorama', 1)]:
+                panorama_details = parse_details(get(HOST + map_record.link + '?mapmenu=1'))
+                details = basic_details.combine(panorama_details)
+            else:
+                raise Exception(f'Unexpected submenu: {basic_details.submenu}')
+            connection.execute(
+                update(MapRecord).where(MapRecord.id == map_record.id).values({
+                    **details.to_db_row(),
+                    "crawling_level": MapRecord.CRAWLING_LEVEL_MAX
+                })
+            )
+            connection.commit()
+            print(f"updated: {details.name or map_record.name}")
+        except Exception as e:
+            raise Exception(f'Processing of {map_record.link} failed') from e
+
+
 async def async_main():
     parser = argparse.ArgumentParser(description=f'Indexes maps at {HOST}, downloads them and minifies (repacks) them.')
     parser.add_argument('--skip-map-download', dest='download_maps', action='store_false', default=True,
                         help='Skips map download. Useful for development rather than for production.')
+    parser.add_argument('--skip-map-repack', dest='repack_maps', action='store_false', default=True,
+                        help='Skips map repack. Useful for development rather than for production.')
     parser.add_argument('--repack-style', dest='repack_style', type=RepackStyle, choices=list(RepackStyle),
                         default=RepackStyle.large_pk3s,
                         help=f'Repack style. {RepackStyle.large_pk3s} will create large pk3 bundles.')
@@ -290,24 +325,36 @@ async def async_main():
 
     db_engine = create_current_db_engine()
     db_session = sessionmaker(bind=db_engine)
+
     crawl_ws(db_session)
+
     if args.download_maps:
         async with ClientSession() as http_session:
             await download_maps(db_session, http_session)
+
     if args.reset_minified_maps:
         connection = db_session()
         connection.execute(update(MapRecord).values({"minified": False}))
         connection.execute(delete(MapPackAssignment))
         connection.commit()
+
+    if args.repack_maps:
+        await repack_maps(args, db_session)
+
+    crawl_details(db_session)
+
+
+async def repack_maps(args, db_session):
     with open(os.path.join(dirname(__file__), 'ws-scrape-repack-errors.log'), 'a') as repack_log_file:
         repack_log = Log(repack_log_file, args.throw_exceptions)
         if args.repack_style == RepackStyle.large_pk3s:
             connection = db_session()
             initial_id = int(connection.execute(select([func.max(MapPackAssignment.group_id)])).first()[0] or 0)
             connection.close()
-            for i in range(0, initial_id+1):
+            for i in range(0, initial_id + 1):
                 ensure_pk3_repack(i, connection)
-            zip_split = ZipChunksSplit(dir=MINIFIED_MAPS_OUTPUT_DIRECTORY, size_cap=int(args.repack_size_cap), initial_id=initial_id)
+            zip_split = ZipChunksSplit(dir=MINIFIED_MAPS_OUTPUT_DIRECTORY, size_cap=int(args.repack_size_cap),
+                                       initial_id=initial_id)
         elif args.repack_style == RepackStyle.per_bsp:
             zip_split = ZipSingleFilesSplit(dir=MINIFIED_MAPS_OUTPUT_DIRECTORY)
         elif args.repack_style == RepackStyle.per_pk3:
